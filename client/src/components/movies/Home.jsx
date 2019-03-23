@@ -25,10 +25,14 @@ class Home extends React.Component {
         });
       })
       .then(() => {
-        this.state.movies.forEach((el, i) => {
-          this.updateMovieDetail(el, i);
-        });
+        //* Every 3 seconds, refresh movie detail data if it hasn't been loaded
+        this.interval = setInterval(() => this.refreshMovieDetailData(), 3000);
       });
+  }
+
+  //# Clear interval
+  componentWillUnmount() {
+    clearInterval(this.interval);
   }
 
   //# Fetch movie detail data
@@ -74,15 +78,10 @@ class Home extends React.Component {
   filterMoviesByTitle = query => {
     let updatedList = this.state.moviesOriginal;
     updatedList = updatedList.filter(item => {
-      return (
-        item.title
-          .toLowerCase()
-          .search(
-            query
-              .replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>{}[\]\\/]/gi, "")
-              .toLowerCase()
-          ) !== -1
-      );
+      let cleanQuery = query
+        .replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>{}[\]\\/]/gi, "")
+        .toLowerCase();
+      return item.title.toLowerCase().search(cleanQuery) !== -1;
     });
 
     return updatedList;
@@ -135,7 +134,7 @@ class Home extends React.Component {
   };
 
   //# Refetch movie details
-  refetchUnloadedMovieDetailData = () => {
+  refreshMovieDetailData = () => {
     this.state.moviesOriginal.forEach((el, i) => {
       if (!this.hasMovieDetailLoaded(el)) {
         this.updateMovieDetail(el, i);
@@ -219,7 +218,7 @@ class Home extends React.Component {
           />
           <button
             className="ui icon button"
-            onClick={() => this.refetchUnloadedMovieDetailData()}
+            onClick={() => this.refreshMovieDetailData()}
           >
             <i className="sync icon" />
           </button>
