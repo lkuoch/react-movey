@@ -1,0 +1,42 @@
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/bin/Debug/netcoreapp2.1/movey.deps.json
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/bin/Debug/netcoreapp2.1/movey.runtimeconfig.json
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/bin/Debug/netcoreapp2.1/movey.runtimeconfig.dev.json
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/bin/Debug/netcoreapp2.1/movey.dll
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/bin/Debug/netcoreapp2.1/movey.pdb
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.csprojAssemblyReference.cache
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.csproj.CoreCompileInputs.cache
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.RazorAssemblyInfo.cache
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.RazorAssemblyInfo.cs
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.AssemblyInfoInputs.cache
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.AssemblyInfo.cs
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.RazorTargetAssemblyInfo.cache
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.dll
+/Users/lawrencekuoch/Documents/Projects/Personal/movey/api/movey/movey/obj/Debug/netcoreapp2.1/movey.pdb
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.deps.json
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.runtimeconfig.json
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.runtimeconfig.dev.json
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.dll
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.pdb
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.csprojAssemblyReference.cache
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.csproj.CoreCompileInputs.cache
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.RazorAssemblyInfo.cache
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.RazorAssemblyInfo.cs
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.AssemblyInfoInputs.cache
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.AssemblyInfo.cs
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.RazorTargetAssemblyInfo.cache
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.dll
+C:\Users\goldenchrysanthem\Desktop\Movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.pdb
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.deps.json
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.runtimeconfig.json
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.runtimeconfig.dev.json
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.dll
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\bin\Debug\netcoreapp2.1\movey.pdb
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.csprojAssemblyReference.cache
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.csproj.CoreCompileInputs.cache
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.RazorAssemblyInfo.cache
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.RazorAssemblyInfo.cs
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.AssemblyInfoInputs.cache
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.AssemblyInfo.cs
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.RazorTargetAssemblyInfo.cache
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.dll
+C:\Users\goldenchrysanthem\Desktop\To Upload\movey\api\movey\movey\obj\Debug\netcoreapp2.1\movey.pdb

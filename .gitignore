@@ -1,0 +1,49 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client/node_modules
+client//.pnp
+client/.pnp.js
+
+# testing
+client//coverage
+
+# production
+client//build
+
+# misc
+.DS_Store
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+/api/movey/*.swp
+/api/movey/*.*~
+/api/movey/project.lock.json
+/api/movey/.DS_Store
+/api/movey/*.pyc
+/api/movey/.vscode
+/api/movey/*.suo
+/api/movey/*.user
+/api/movey/*.userosscache
+/api/movey/*.sln.docstates
+/api/movey/[Dd]ebug/
+/api/movey/[Dd]ebugPublic/
+/api/movey/[Rr]elease/
+/api/movey/[Rr]eleases/
+/api/movey/x64/
+/api/movey/x86/
+/api/movey/build/
+/api/movey/bld/
+/api/movey/[Bb]in/
+/api/movey/[Oo]bj/
+/api/movey/msbuild.log
+/api/movey/msbuild.err
+/api/movey/msbuild.wrn
+/api/movey/.vs/

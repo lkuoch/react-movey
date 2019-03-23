@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{4D4AC109-5AE7-4293-ADEC-7A4FD92D5336}|Default">
+  <MonoDevelop.Ide.ItemProperties.Movey PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Movey/Controllers/MoveyController.cs">
+    <Files>
+      <File FileName="Movey/Startup.cs" Line="65" Column="9" />
+      <File FileName="Movey/appsettings.json" Line="18" Column="5" />
+      <File FileName="Movey/Controllers/MoveyController.cs" Line="18" Column="33" />
+      <File FileName="Movey/Configs/GeneralWebservices/FilmworldConfig.cs" Line="10" Column="9" />
+      <File FileName="Movey/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Movey" expanded="True">
+            <Node name="Movey" expanded="True">
+              <Node name="Actions" expanded="True">
+                <Node name="GeneralWebservices" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="MoveyController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
