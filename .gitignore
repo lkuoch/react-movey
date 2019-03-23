@@ -23,6 +23,7 @@ client/npm-debug.log*
 client/yarn-debug.log*
 client/yarn-error.log*
 
+/api/movey/.vs
 /api/movey/movey/*.swp
 /api/movey/movey/*.*~
 /api/movey/movey/project.lock.json
