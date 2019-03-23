@@ -1,59 +1,56 @@
-# react-movey
+# react-movey 🎬
 
 ---
 
-### To run locally:
+### Screenshot 🏞️
 
-`NB: I tested this and got it to work locally on a Windows 10 machine with Visual Studio 2019 preview`
-
-- Building server:
-
-  - cd into api/movey
-
-  - Configure `api/movey/movey/appsettings.json`
-
-    > You will need to store the crendentials you provided here:
-
-    ```json
-    "moveyConfig": {
-      "baseEndpoint": "http://xxxxxxxxx/api/",
-      "token": "xxxxxxxxxxxx",
-    }
-    ```
-
-  - Open movey.sln in Visual Studio and hit run
-
-  - Don't close the browser window!
-
-- Building frontend:
-
-  - cd into client
-
-  - ⚠️ Make sure the `baseURL` in `movey/client/src/api/MoveyApi.jsx` is referencing the same `url` opened by Visual Studio
-
-  - `npm i && npm start`
-
-  - If the data is still loading, you can press the `refresh` button on the search screen. It will make a network request for all unloaded movie elements
-
-  - To reset search it can be a bit finnicky but they way I do it is clear search, hit `space` then `backspace`
-
-  - Other:
-
-    - If there are some CORS issues? 🚨
-
-      If you open your network tab and there's a whole bunch of CORS issues, one work around I found to test locally in `Chrome` is:
-
-      > Install this extension https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en-US
+![](/client/assets/example_screenshot.png?raw=true "Screenshot")
 
 ---
 
-### Thoughts and Comments
+### Steps to run locally ✨
+
+1: Building and running the server:
+
+- Go into `api/movey` directory
+
+- Modify `api/movey/movey/appsettings.json`
+
+  > You will need to replace the `xxxx` with the crendentials that you sent:
+
+  ```json
+  "moveyConfig": {
+    "baseEndpoint": "http://xxxxxxxxx/api/",
+    "token": "xxxxxxxxxxxx",
+  }
+  ```
+
+- Open `movey.sln` in Visual Studio and hit run
+
+- Don't close the browser 🌏 window
+
+<br />
+2: Building the frontend:
+
+- Go into `client` directory
+
+- ⚠️ Make sure the `baseURL` in `movey/client/src/api/MoveyApi.jsx` is referencing the same `url` opened by Visual Studio in the browser 🌏 window
+
+- Run the commands `npm i && npm start`
+
+<br />
+
+---
+
+### Thoughts and Comments 💭
 
 - Couldn't load images returned by the api because whenever the image links are accessed they all
 
   > eg: http://ia.media-imdb.com/images/M/MV5BOTIyMDY2NGQtOGJjNi00OTk4LWFhMDgtYmE3M2NiYzM0YTVmXkEyXkFqcGdeQXVyNTU1NTcwOTk@._V1_SX300.jpg
 
   returned a `403 ERROR` so I decided not to waste any time
+
+- Given the timeframe I would have writen unit tests but instead shifted my focus instead of developeing a mvp and adding documentation.
 
 - There was no need to write a server component in my opinion but in the email it was quoted:
 
@@ -76,6 +73,14 @@
 
 ---
 
-### Example screenshot
+### Other points of interest ❗
 
-![](/client/assets/example_screenshot.png?raw=true "Screenshot")
+- The movie data is automatically refreshed every 3 seconds but you can manually refresh it by pressing the 🔄 button
+
+- Sometimes resetting the search can be a bit finnicky but a way I found useful was clearing search, hiting `space` and then `backspace`
+
+- There were some CORS issues earlier on which should be hopefully fixed but...
+
+  - If you open your network tab and there's still a whole bunch of CORS issues 🚨, one work around I found to test locally in `Chrome` is:
+
+  > Install this extension https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en-US
