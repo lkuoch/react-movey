@@ -1,4 +1,4 @@
-# Movey
+# react-movey
 
 ---
 
@@ -18,7 +18,6 @@
     "moveyConfig": {
       "baseEndpoint": "http://xxxxxxxxx/api/",
       "token": "xxxxxxxxxxxx",
-      ...
     }
     ```
 
