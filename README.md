@@ -33,23 +33,23 @@
 
   - `npm i && npm start`
 
-  - 🚨 Check your network tab: 🚨
-
-    If you open your network tab and there's a whole bunch of CORS issues, one work around I found to test locally in `Chrome` is:
-
-    > set `chrome://flags/#allow-insecure-localhost` to true
-
-    > Install this extension https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en-US
-
   - If the data is still loading, you can press the `refresh` button on the search screen. It will make a network request for all unloaded movie elements
 
   - To reset search it can be a bit finnicky but they way I do it is clear search, hit `space` then `backspace`
+
+  - Other:
+
+    - If there are some CORS issues? 🚨
+
+      If you open your network tab and there's a whole bunch of CORS issues, one work around I found to test locally in `Chrome` is:
+
+      > Install this extension https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en-US
 
 ---
 
 ### Thoughts and Comments
 
-- Couldn't load images because whenever the image links as all the image links
+- Couldn't load images returned by the api because whenever the image links are accessed they all
 
   > eg: http://ia.media-imdb.com/images/M/MV5BOTIyMDY2NGQtOGJjNi00OTk4LWFhMDgtYmE3M2NiYzM0YTVmXkEyXkFqcGdeQXVyNTU1NTcwOTk@._V1_SX300.jpg
 
@@ -70,9 +70,9 @@
 
   > During the early stages of the app, I had planned a list of features that would be awesome but had to shelve some due to time contraints.
 
-  > Bootstrapping everything took quite a large chunk of time so I decided to just implement the minum
+  > Bootstrapping everything took quite a large chunk of time so I decided to just implement the minumum
 
-  > I am happy to talk about a lot of these, I think you would find them really interesting.
+  > I also mostly put everything in one component but just given the time limit it seemed most appropriate
 
 ---
 
